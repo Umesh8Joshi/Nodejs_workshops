@@ -1,12 +1,10 @@
 // reading file and returning number of lines by using async IO of node
 
-var fs = require('fs')
-var len = undefined
+var fs = require('fs');
+var filepath = process.argv[2];
 
-function numLine(){
-	fs.readFile(process.argv[2], function donenumLine(err, lines){
-		len = donenumLine.toString().split('\n').length - 1
-	})
-}
-numLine()
-console.log(len)
+fs.readFile(filepath, function callback(err, data){
+	if(err){return err}
+	var str = data.toString()
+	console.log(str.split('\n').length -1)
+})
