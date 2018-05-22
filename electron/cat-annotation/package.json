@@ -1,0 +1,16 @@
+{
+  "name": "cat-annotation",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "cat-picture": "^5.1.2",
+    "lightning-image-poly": "0.0.10"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}

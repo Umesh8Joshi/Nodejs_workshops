@@ -1,0 +1,14 @@
+{
+  "name": "cat",
+  "version": "1.0.0",
+  "description": "demo site",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Umesh8Joshi",
+  "license": "ISC",
+  "dependencies": {
+    "cat-picture": "^5.1.2"
+  }
+}
