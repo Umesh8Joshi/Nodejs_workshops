@@ -7,6 +7,9 @@
 - [x] Scope-Chain-Closure
 - [x] Markdown
 - [x] ExpressJS
+- [x] HapiJS
+- [ ] Async
+- [ ] Functional
 
 ---
 The key of mastering anything is practice. All the nodejs workshops solved by me with solutions.
